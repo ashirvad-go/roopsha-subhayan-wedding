@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4b0715">
+  <meta name="description" content="The wedding invitation of Roopsha Biswas and Subhayan Banerjee, 25 November 2026.">
+  <meta property="og:title" content="Roopsha & Subhayan — Wedding Invitation">
+  <meta property="og:description" content="Join us as we celebrate our wedding on 25 November 2026.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/cover.jpg">
+  <title>Roopsha & Subhayan | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+  <div class="petals" aria-hidden="true"></div>
+
+  <section class="cover" id="cover" aria-label="Open wedding invitation">
+    <div class="cover__frame">
+      <p class="eyebrow">Together with their families</p>
+      <div class="monogram" aria-hidden="true">R<span>&</span>S</div>
+      <h1><span>Roopsha</span><small>&</small><span>Subhayan</span></h1>
+      <p class="cover__date">25 · 11 · 2026</p>
+      <button class="button button--gold" id="openInvite" type="button">
+        Open Invitation
+      </button>
+      <p class="cover__hint">Tap to enter with music</p>
+    </div>
+  </section>
+
+  <button class="music-button" id="musicButton" type="button" aria-label="Pause background music" hidden>♫</button>
+  <audio id="backgroundMusic" loop preload="none">
+    <source src="assets/wedding-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <main>
+    <section class="hero section">
+      <div class="ornament ornament--top" aria-hidden="true">❦</div>
+      <p class="eyebrow reveal">A celebration of love</p>
+      <h2 class="names reveal">Roopsha <span>&</span> Subhayan</h2>
+      <p class="bengali reveal">শুভ বিবাহ</p>
+      <p class="hero__copy reveal">
+        Two hearts, two families and one beautiful beginning. We request the pleasure
+        of your company as we celebrate our wedding.
+      </p>
+      <div class="hero__portrait reveal">
+        <div class="photo-placeholder">
+          <span>Add Couple Photo</span>
+          <small>Replace assets/cover.jpg</small>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#families" aria-label="Scroll to invitation details">⌄</a>
+    </section>
+
+    <section class="section families" id="families">
+      <p class="eyebrow reveal">With the blessings of</p>
+      <div class="family-grid">
+        <article class="royal-card reveal">
+          <p class="card-label">Bride’s family</p>
+          <h3>Roopsha Biswas</h3>
+          <p>Daughter of</p>
+          <strong>Late Subir Biswas</strong>
+          <span>&</span>
+          <strong>Mita Biswas</strong>
+        </article>
+        <div class="family-join reveal" aria-hidden="true">ॐ</div>
+        <article class="royal-card reveal">
+          <p class="card-label">Groom’s family</p>
+          <h3>Subhayan Banerjee</h3>
+          <p>Son of</p>
+          <strong>Late Bablu Chandra Banerjee</strong>
+          <span>&</span>
+          <strong>Kajal Banerjee</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="eyebrow reveal">Counting every moment</p>
+      <h2 class="section-title reveal">Until We Say “I Do”</h2>
+      <div class="countdown reveal" id="countdown" aria-live="polite">
+        <div><strong id="days">0</strong><span>Days</span></div>
+        <div><strong id="hours">0</strong><span>Hours</span></div>
+        <div><strong id="minutes">0</strong><span>Minutes</span></div>
+        <div><strong id="seconds">0</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section events" id="events">
+      <p class="eyebrow reveal">Save the dates</p>
+      <h2 class="section-title reveal">Wedding Celebrations</h2>
+      <div class="event-grid">
+        <article class="event-card reveal">
+          <div class="event-icon" aria-hidden="true">✦</div>
+          <p class="card-label">The Wedding</p>
+          <h3>Wednesday</h3>
+          <div class="event-date"><strong>25</strong><span>November<br>2026</span></div>
+          <p>7:00 PM onwards</p>
+          <h4>Basudeb Villa</h4>
+          <address>5/25 Bijoygarh<br>Kolkata – 700092</address>
+          <div class="actions">
+            <a class="button" href="https://www.google.com/maps/search/?api=1&query=Basudeb+Villa+5%2F25+Bijoygarh+Kolkata+700092" target="_blank" rel="noopener">View Map</a>
+            <a class="button button--outline" href="https://wa.me/919330321650?text=Hello%2C%20I%20received%20Roopsha%20and%20Subhayan%27s%20wedding%20invitation." target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </article>
+
+        <article class="event-card reveal">
+          <div class="event-icon" aria-hidden="true">❋</div>
+          <p class="card-label">The Reception</p>
+          <h3>Friday</h3>
+          <div class="event-date"><strong>27</strong><span>November<br>2026</span></div>
+          <p>6:00 PM onwards</p>
+          <h4>Khelaghar (Sodepur Club)</h4>
+          <address>F-14, School Road, Amarabati<br>Sodepur, Kolkata – 700110</address>
+          <div class="actions">
+            <a class="button" href="https://www.google.com/maps/search/?api=1&query=Khelaghar+Sodepur+Club+F-14+School+Road+Amarabati+Sodepur+Kolkata+700110" target="_blank" rel="noopener">View Map</a>
+            <a class="button button--outline" href="https://wa.me/918240540262?text=Hello%2C%20I%20received%20Roopsha%20and%20Subhayan%27s%20reception%20invitation." target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <p class="eyebrow reveal">Our beautiful journey</p>
+      <h2 class="section-title reveal">Captured in Love</h2>
+      <div class="gallery">
+        <button class="gallery-item gallery-item--wide reveal" type="button"><span>Add Photo 1</span></button>
+        <button class="gallery-item reveal" type="button"><span>Add Photo 2</span></button>
+        <button class="gallery-item reveal" type="button"><span>Add Photo 3</span></button>
+        <button class="gallery-item gallery-item--wide reveal" type="button"><span>Add Photo 4</span></button>
+      </div>
+      <p class="gallery-note reveal">Place your photographs in the <strong>assets</strong> folder and update their filenames in the website.</p>
+    </section>
+
+    <section class="section closing">
+      <div class="closing__frame reveal">
+        <p class="eyebrow">Your presence is our blessing</p>
+        <h2>We can’t wait to<br>celebrate with you</h2>
+        <div class="monogram monogram--small" aria-hidden="true">R<span>&</span>S</div>
+        <p>With love,<br><strong>Roopsha & Subhayan</strong></p>
+        <button class="button button--gold" id="shareInvite" type="button">Share Invitation</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Roopsha & Subhayan · 25 November 2026</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <button id="closeLightbox" type="button" aria-label="Close photograph">×</button>
+    <div class="lightbox__image">Your photograph will open here</div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
